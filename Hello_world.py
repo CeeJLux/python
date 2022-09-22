@@ -8,7 +8,7 @@
 # Total = float(Body) + float(Bag)
 # print("Total Weight is :" + str(Total))
 
-weight = input("What is your weight: ")
+weight = float(input("What is your weight: "))
 unit = input("Weight in (K)gs or (L)bs: ")
 if unit.upper() == "K":
     converted = int(weight) / 0.45
